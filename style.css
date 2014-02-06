@@ -1,9 +1,22 @@
 body {
 	font-family: helvetica, sans-serif;
-	font-size: 9px;
+	font-size: 11px;
+	color: black;
+	font-weight: bold;
 }
 
-#hold {
+.center {
 	display:block;
-	margin: 20% auto 0 auto;
+	width: 130px;
+	margin: 20% auto;
+	text-align: center;
+}
+
+.logo {
+	display: block;
+	background-image: url('circle.png');
+	background-repeat: no-repeat;
+	height: 102px;
+	width: 102px;
+	margin: 0 auto 20px auto;
 }
