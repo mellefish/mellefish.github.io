@@ -2,7 +2,10 @@ body {
 	font-family: helvetica, sans-serif;
 	font-size: 11px;
 	color: black;
-	font-weight: bold;
+}
+
+.container {
+	padding: 0 230px;
 }
 
 .center {
@@ -12,23 +15,99 @@ body {
 	text-align: center;
 }
 
+hr.double-divider {
+	padding: 0px;
+	border: none;
+	margin: 0;
+	border-top: medium double;
+}
+
+
+/*		LOGO		*/
+
 .logo {
 	display: block;
-	background-image: url('circle.png');
+	text-align: center;
+	font-size: 16pt;
+	/*background-image: url('circle.png');
 	background-repeat: no-repeat;
 	height: 102px;
-	width: 102px;
-	margin: 0 auto 20px auto;
+	width: 102px;*/
+	margin: 60px auto 60px auto;
 }
 
-	
-ul
-{
-    list-style-type: none;
-    margin-left: -45px;
+/*		END LOGO		*/
+
+/*			NAVIGATION BAR 		*/			
+ul.navbar {
+	border: none;
+	margin: 0;
+	padding: 0;
+	min-height: 0px;
+	list-style: none;
+	text-align: justify;
 }
 
-a {
-	color: #000;
-	line-height: 20px;
+ul.navbar:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
 }
+
+.navbar li {
+	display: inline-block;
+	padding-top: 30px;
+	padding: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #333;
+	font-size: 10pt;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.nav-active:before {
+	content: ".";
+	display: block;
+	color: #96CC60;
+	background-color: #96CC60;
+	margin-bottom: 15px;
+}
+
+/*		Design Information 		*/
+
+.design-info {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+ul.design-list {
+	margin: 0;
+	padding: 0 15px;
+	list-style: none;
+}
+
+.design-list > li > p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#design > .row > .design-info:first-child > ul > li > p {
+	font-weight: bold;
+}
+
+/*		Design Images 		*/
+#design-images {
+	margin-bottom: 50px;
+}
+
+.design-image {
+	padding: 10px 0px 0px 10px;
+}
+
