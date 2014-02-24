@@ -15,6 +15,16 @@ body {
 	text-align: center;
 }
 
+hr.double-divider {
+	padding: 0px;
+	border: none;
+	margin: 0;
+	border-top: medium double;
+}
+
+
+/*		LOGO		*/
+
 .logo {
 	display: block;
 	text-align: center;
@@ -23,29 +33,14 @@ body {
 	background-repeat: no-repeat;
 	height: 102px;
 	width: 102px;*/
-	margin: 60px auto 100px auto;
+	margin: 60px auto 60px auto;
 }
 
-ul
-{
-    list-style-type: none;
-    /*margin-left: -45px;*/
-}
-
-a {
-	color: #000;
-	line-height: 20px;
-}
-
-hr.double-divider {
-	padding: 0px;
-	border: none;
-	margin: 0;
-	border-top: medium double;
-}
+/*		END LOGO		*/
 
 /*			NAVIGATION BAR 		*/			
 ul.navbar {
+	border: none;
 	margin: 0;
 	padding: 0;
 	min-height: 0px;
@@ -61,7 +56,7 @@ ul.navbar:after{
 
 .navbar li {
 	display: inline-block;
-	margin: 0;
+	padding-top: 30px;
 	padding: 0;
 }
 
@@ -74,6 +69,14 @@ ul.navbar:after{
 .navbar a:hover {
 	text-decoration: none;
 	color: #333;
+}
+
+.nav-active:before {
+	content: ".";
+	display: block;
+	color: #96CC60;
+	background-color: #96CC60;
+	margin-bottom: 15px;
 }
 
 /*		Design Information 		*/
@@ -91,7 +94,8 @@ ul.design-list {
 
 .design-list > li > p {
 	margin: 0;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #design > .row > .design-info:first-child > ul > li > p {
