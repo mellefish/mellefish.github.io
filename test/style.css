@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+.container {
+	float:left;
+	position: relative;
+}
+
+.applebar {
+	top:0;
+	left:0;
+	float: left;
+	z-index: 200;
+	display: block;
+	position: fixed;
+}
+
+.video {
+	z-index: -1000;
+	float: left;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: block;
+}
+
+.sparkbar {
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	left:0;
+	position: fixed;
+	background-color: #000;
+	z-index: 200;
+	display: block;
+}
+
+.sidebar {
+	right: 0;
+	position: absolute;
+	width: 100px;
+	height: 500px;
+	z-index: 100;
+	background-color: yellow;
+	display: block;
+}
+
+.sidebar2 {
+	right: 0;
+	position: absolute;
+	width: 100px;
+	height: 5000px;
+	z-index: 90;
+	background-color: blue;
+	display: block;
+}
