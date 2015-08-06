@@ -1,7 +1,25 @@
 <html>
+
+<script type="text/javascript">
+var updateLayout = function() {
+  if (window.innerWidth != currentWidth) {
+    currentWidth = window.innerWidth;
+    var orient = (currentWidth == 320) ? "profile" : "landscape";
+    document.body.setAttribute("orient", orient);
+    window.scrollTo(0, 1);
+  }
+};
+
+iPhone.DomLoad(updateLayout);
+setInterval(updateLayout, 400);
+</script>
+
 <head><title></title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
 <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 <body>
 
