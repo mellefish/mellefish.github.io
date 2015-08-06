@@ -18,7 +18,7 @@
 	position: fixed;
 }
 
-.video {
+.video { 
 	z-index: -1000;
 	float: left;
 	top: 0;
@@ -28,7 +28,7 @@
 }
 
 .sparkbar {
-	height: 100px;
+	padding: 13px 40px 10px 40px;
 	width: 100%;
 	bottom: 0;
 	left:0;
@@ -40,20 +40,44 @@
 
 .sidebar {
 	right: 0;
+	top: 80px;
 	position: absolute;
 	width: 100px;
 	height: 500px;
 	z-index: 100;
-	background-color: yellow;
 	display: block;
+	line-height: 50px;
+	margin: 0 25px 0 0;
 }
 
-.sidebar2 {
+/*.sidebar2 {
 	right: 0;
 	position: absolute;
-	width: 100px;
+	width: 90px;
 	height: 5000px;
 	z-index: 90;
 	background-color: blue;
 	display: block;
+}*/
+
+/* BUTTONS = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.b1 img, .b2 img, .b3 img { 
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+
+.b1 {
+	float: left;
+}
+
+.b2 {
+	float: left;
+	margin-left: 450px;
+}
+
+.b3 {
+	float: left;
+	margin-left: 469px;
 }
