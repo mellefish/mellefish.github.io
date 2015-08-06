@@ -40,19 +40,18 @@
 
 .sidebar {
 	right: 0;
-	top: 80px;
+	top: 70px;
 	position: absolute;
 	width: 100px;
 	height: 500px;
 	z-index: 100;
 	display: block;
-	line-height: 50px;
 	margin: 0 70px 0 0;
 }
 
 .sidebar img {
-	width: 150px;
-	height: 150px;
+	margin: 30px;
+	width: 120px;
 }
 
 /*.sidebar2 {
