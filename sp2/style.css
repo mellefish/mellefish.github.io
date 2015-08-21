@@ -3,13 +3,6 @@
 	padding:0;
 }
 
-body {
-	background: url('img/superblur.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100%;
-}
-
 .container {
 	width: 100%;
 	left: 50%;
@@ -29,7 +22,7 @@ body {
 
 .menu img {
 	width: 100%;
-	margin: -375px 0 375px 0;
+	margin: -845px 0 375px 0;
 	float:left;
 	display: block;
 }
