@@ -5,89 +5,31 @@
 
 body {
 	background: url('img/superblur.jpg');
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
 }
 
 .container {
 	width: 100%;
-	float:left;
-	position: relative;
+	left: 50%;
+	margin: 5% 0 0 30%;
 }
 
-.applebar {
-	top:0;
-	left:0;
-	float: left;
-	z-index: 200;
-	display: block;
+.ring img {
 	position: fixed;
+	width: 40%;
 }
 
-.video { 
-	z-index: -1000;
-	float: left;
-	top: 0;
-	left: 0;
-	position: fixed;
+.menu {
+	width: 45%;
 	display: block;
+	margin: 0 0 0 -2.5%;
 }
 
-.sparkbar {
-	padding: 13px 40px 10px 40px;
+.menu img {
 	width: 100%;
-	bottom: 0;
-	left:0;
-	position: fixed;
-	background-color: #000;
-	z-index: 200;
+	margin: -375px 0 375px 0;
+	float:left;
 	display: block;
-}
-
-.sidebar {
-	right: 0;
-	top: 70px;
-	position: absolute;
-	width: 100px;
-	height: 500px;
-	z-index: 100;
-	display: block;
-	margin: 0 70px 0 0;
-}
-
-.sidebar img {
-	margin: 25px;
-	width: 120px;
-	padding: 0 0 60px 0;
-}
-
-/*.sidebar2 {
-	right: 0;
-	position: absolute;
-	width: 90px;
-	height: 5000px;
-	z-index: 90;
-	background-color: blue;
-	display: block;
-}*/
-
-/* BUTTONS = = = = = = = = = = = = = = = = = = = = = = = = = = = */
-
-.b1 img, .b2 img, .b3 img { 
-	width: 40px;
-	height: 40px;
-	display: block;
-}
-
-.b1 {
-	float: left;
-}
-
-.b2 {
-	float: left;
-	margin-left: 450px;
-}
-
-.b3 {
-	float: left;
-	margin-left: 469px;
 }
