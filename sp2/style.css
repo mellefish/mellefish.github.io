@@ -3,6 +3,11 @@
 	padding:0;
 }
 
+body {
+	background: url('img/superblur.jpg');
+	background-size: cover;
+}
+
 .container {
 	width: 100%;
 	float:left;
