@@ -22,7 +22,12 @@
 
 .menu img {
 	width: 100%;
-	margin: -845px 0 845px 0;
+	margin: -580px 0 580px 0;
 	float:left;
 	display: block;
+}
+
+.rightarrow {
+	margin: 220px 0 0 1200px;
+	position: fixed;
 }
