@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: Book;
+    src: url(../fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../fonts/CircularStd-Bold.otf);
+}
+
+body {
+	font-family: Book, sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: Bold;
+	z-index: 1000;
+}
+
+.block {
+	height: 100px;
+	width: 100px;
+}
+
+.shape {
+	height: 300px;
+	width: 500px;
+	margin: 100px 200px;
+	border: 1px solid red;
+}
+
+.shape2 {
+	height: 300px;
+	width: 500px;
+	margin: 100px 200px;
+	border: 1px solid blue;
+}
+
+.margin {
+	z-index: 100;
+	width: 75%;
+	height: 100%;
+	border: 150px solid red;
+	position: fixed;
+}
+
+.portfolio {
+	z-index: -100;
+}
+
+.name, .info {
+	position: fixed;
+	margin: 60px;
+	z-index: 1000;
+}
+
+.container {
+	margin: 0 150px;
+}
+
+.left {
+	left: 0;
+	text-align: left;
+	z-index: 1000;
+}
+
+.right {
+	right: 0;
+	text-align: right;
+}
+
+/*.navigation {
+	margin: 50px;
+	width: 10%;
+	height: 100px;
+	position: fixed;
+}
+
+.left {
+	float:left;
+	text-align: left;
+	display: block;
+}
+
+.right {
+	float:right;
+	text-align: right;
+	display: block;
+}*/
+
+.container {
+	height: 2000px;
+}
+
+[x-sticky-boundary] {overflow:auto}
