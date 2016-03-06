@@ -14,9 +14,9 @@
     src: url(../fonts/CircularStd-Bold.otf);
 }
 
-/*::-webkit-scrollbar { 
+::-webkit-scrollbar { 
     display: none; 
-}*/
+}
 
 body {
 	font-family: Book, sans-serif;
@@ -28,18 +28,22 @@ h1 {
 	z-index: 1000;
 }
 
-.hidespace {
-	height: 2000px;
-}
-
-.block {
-	height: 100px;
-}
-
 .name, .info {
 	position: fixed;
 	margin: 50px 50px;
 	z-index: 1000;
+}
+
+.scrollspacefc {
+	height: 500px;
+}
+
+.scrollspace {
+	height: 1000px;
+}
+
+.block {
+	height: 100px;
 }
 
 .left {
@@ -53,7 +57,7 @@ h1 {
 }
 
 #projecttext {
-	padding: 25px 50px;
+	padding: 25px 0px;
 }
 
 #shape {
@@ -63,43 +67,13 @@ h1 {
 	position: absolute;
 	left: -100px;
 	top: 0px;
-	z-index: 100;
+	z-index: 5000;
 }
 
-.container {
-	z-index: 0;
-	width: 70%;
+.resume {
+	background-color: violet;
 }
 
-.bar {
-	position: fixed;
-	background-color: white;
-	z-index: 500;
-}
-
-.t {
-	width: 100%;
-	height: 100px;
-	top: 0px;
-}
-
-.b {
-	width: 100%;
-	height: 100px;
-	bottom: 0px;
-}
-
-.l {
-	width: 100px;
-	height: 100%;
-	left: 0px;
-}
-
-.r {
-	width: 100px;
-	height: 100%;
-	right: 0px;
-}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -118,13 +92,13 @@ there.
 		height: 200px;
 	}
 
-	.container {
-		width: 100%;
+	#projecttext {
+	padding: 25px 50px;
 	}
 
-	.container img {
-		width: 100%;
-	}
+	.scrollspace {
+	height: 100%;
+}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -137,6 +111,8 @@ there.
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+}
 
 [x-sticky-boundary] {overflow:auto}
