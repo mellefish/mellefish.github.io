@@ -55,28 +55,11 @@ body {
  * --------------------------------------- */
  #navheader{
 	position:fixed;
-	top: 4%;
+	top: 23px;
 	left: 60px;
 	z-index: 999;
 	font-family: Medium !important;
  }
-
- #info {
-	position:fixed;
-	top: 4%;
-	right: 60px;
-	z-index: 2000;
-	font-family: Medium !important;
-}
-
-#viewall {
-	position:fixed;
-	bottom: 5%;
-	right: 60px;
-	z-index: 2000;
-	font-family: Medium !important;
-}
-
 
  #footer {
  	height: 60px;
@@ -86,20 +69,3 @@ body {
  	background-color: #fff;
  	z-index: 1000;
  }
-
-@media (max-width: 400px) {
-	
-	body {
-  	border: 0px;
-	}
-
-	#viewall {
-	display: none;
-	}
-
-	.img {
-	z-index: 0;
-	padding: 0;
-	width: 100%;
-	}
-}
