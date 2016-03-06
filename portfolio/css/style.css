@@ -14,10 +14,13 @@
     src: url(../fonts/CircularStd-Bold.otf);
 }
 
+<<<<<<< HEAD
 ::-webkit-scrollbar { 
     display: none; 
 }
 
+=======
+>>>>>>> parent of 6023014... Portfolio
 body {
 	font-family: Book, sans-serif;
 }
@@ -28,6 +31,7 @@ h1 {
 	z-index: 1000;
 }
 
+<<<<<<< HEAD
 .name, .info {
 	position: fixed;
 	margin: 50px 50px;
@@ -49,13 +53,36 @@ h1 {
 .left {
 	left: 0;
 	text-align: left;
+=======
+.block {
+	height: 100px;
+	width: 100px;
 }
 
-.right {
-	right: 0;
-	text-align: right;
+.shape {
+	height: 300px;
+	width: 500px;
+	margin: 100px 200px;
+	border: 1px solid red;
 }
 
+.shape2 {
+	height: 300px;
+	width: 500px;
+	margin: 100px 200px;
+	border: 1px solid blue;
+>>>>>>> parent of 6023014... Portfolio
+}
+
+.margin {
+	z-index: 100;
+	width: 75%;
+	height: 100%;
+	border: 150px solid red;
+	position: fixed;
+}
+
+<<<<<<< HEAD
 #projecttext {
 	padding: 25px 0px;
 }
@@ -115,4 +142,54 @@ there.
 
 }
 
+=======
+.portfolio {
+	z-index: -100;
+}
+
+.name, .info {
+	position: fixed;
+	margin: 60px;
+	z-index: 1000;
+}
+
+.container {
+	margin: 0 150px;
+}
+
+.left {
+	left: 0;
+	text-align: left;
+	z-index: 1000;
+}
+
+.right {
+	right: 0;
+	text-align: right;
+}
+
+/*.navigation {
+	margin: 50px;
+	width: 10%;
+	height: 100px;
+	position: fixed;
+}
+
+.left {
+	float:left;
+	text-align: left;
+	display: block;
+}
+
+.right {
+	float:right;
+	text-align: right;
+	display: block;
+}*/
+
+.container {
+	height: 2000px;
+}
+
+>>>>>>> parent of 6023014... Portfolio
 [x-sticky-boundary] {overflow:auto}
