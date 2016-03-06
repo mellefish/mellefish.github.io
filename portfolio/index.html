@@ -1,153 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CSS3 - fullPage.js</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage.js using CSS3 transformations." />
+	<meta name="keywords"  content="fullpage,jquery,anchor,links,inside,demo,css,css3" />
+	<meta name="Resource-type" content="Document" />
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>michelle fong</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="indexexamples.css" />
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/animate.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <script src="js/sticky.js" defer></script>
-  
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+	<script type="text/javascript" src="index/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="index/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+       			css3: true
+       		});
+		});
+	</script>
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="name left">
-    <h1>michelle fong</h1>
-  </div>
+<div id="footer"></div>
 
-  <div class="info right">
-    <h1>info</h1>
-  </div>
+<div id="navheader">
+  michelle fong
+</div>
 
-<!-- <div class="t bar"></div>
-<div class="b bar"></div>
-<div class="l bar"></div>
-<div class="r bar"></div> -->
+<div id="fullpage">
 
-  <div class="container">
-    <div class="row">
-      <div>
+	<div class="section" id="section0">
+		<div class="shape"><img src="imgs/shape.gif"></div>
+		<div class="img"><img src="imgs/index/griffith.jpg"></div>
+	</div>
 
+	<div class="section" id="section0">
+		<div class="shape"><img src="imgs/shape.gif"></div>
+		<div class="img"><img src="imgs/index/wikiart.png"></div>
+	</div>
 
-        <div class="box2">
-          <div x-sticky-boundary="">
-            <div class="box21"><div x-sticky="">
+	<div class="section" id="section0">
+		<div class="shape"><img src="imgs/shape.gif"></div>
+		<div class="img"><img src="imgs/index/meiri.jpg"></div>
+	</div>
+</div>
 
-              <div class="block"></div>
-                <div>
-                <img src="images/transformation.gif" id="shape">
-                <img src="images/projectthumb/griffith.jpg">
-                <div id="projecttext">A project about astronomy.</div>
-                </div>
-              </div>
-
-            <div class="box22">
-              <div class="hidespace">
-            </div>
-            </div></div>
-        </div>
-
-        <div class="box2">
-          <div x-sticky-boundary="">
-            <div class="box21"><div x-sticky="">
-
-              <div class="block"></div>
-                <div>
-                <img src="images/transformation.gif" id="shape">
-                <img src="images/projectthumb/wikiart.png"></div>
-              </div>
-
-            <div class="box22">
-              <div class="hidespace">
-            </div>
-            </div></div>
-        </div>
-
-        <div class="box2">
-          <div x-sticky-boundary="">
-            <div class="box21"><div x-sticky="">
-
-              <div class="block"></div>
-                <div>
-                <img src="images/transformation.gif" id="shape">
-                <img src="images/projectthumb/nsm.png"></div>
-              </div>
-
-            <div class="box22">
-              <div class="hidespace">
-            </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="box2">
-          <div x-sticky-boundary="">
-            <div class="box21"><div x-sticky="">
-
-              <div class="block"></div>
-                <div>
-                <img src="images/transformation.gif" id="shape">
-                <img src="images/projectthumb/meiri.jpg"></div>
-              </div>
-
-            <div class="box22">
-              <div class="hidespace">
-            </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="box2">
-          <div x-sticky-boundary="">
-            <div class="box21"><div x-sticky="">
-
-              <div class="block"></div>
-                <div>
-                <img src="images/transformation.gif" id="shape">
-                <img src="images/projectthumb/terra.png"></div>
-              </div>
-
-            <div class="box22">
-              <div class="hidespace">
-            </div>
-            </div>
-            </div>
-        </div>
-
-
-
-      </div>
-    </div>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
