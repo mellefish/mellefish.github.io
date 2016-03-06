@@ -29,7 +29,7 @@ body {
 }
 
 #fullpage {
-	top: -50px;
+/*	top: -50px;*/
 /*	border: 10px solid red;*/
 }
 
@@ -48,7 +48,7 @@ body {
 
 .img {
 	z-index: 0;
-	padding: 0 auto;
+	padding: 40px 0 0 10%;
 }
 
 /* Navigation
