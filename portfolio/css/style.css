@@ -14,13 +14,10 @@
     src: url(../fonts/CircularStd-Bold.otf);
 }
 
-<<<<<<< HEAD
-::-webkit-scrollbar { 
+/*::-webkit-scrollbar { 
     display: none; 
-}
+}*/
 
-=======
->>>>>>> parent of 6023014... Portfolio
 body {
 	font-family: Book, sans-serif;
 }
@@ -31,60 +28,32 @@ h1 {
 	z-index: 1000;
 }
 
-<<<<<<< HEAD
+.hidespace {
+	height: 2000px;
+}
+
+.block {
+	height: 100px;
+}
+
 .name, .info {
 	position: fixed;
 	margin: 50px 50px;
 	z-index: 1000;
 }
 
-.scrollspacefc {
-	height: 500px;
-}
-
-.scrollspace {
-	height: 1000px;
-}
-
-.block {
-	height: 100px;
-}
-
 .left {
 	left: 0;
 	text-align: left;
-=======
-.block {
-	height: 100px;
-	width: 100px;
 }
 
-.shape {
-	height: 300px;
-	width: 500px;
-	margin: 100px 200px;
-	border: 1px solid red;
+.right {
+	right: 0;
+	text-align: right;
 }
 
-.shape2 {
-	height: 300px;
-	width: 500px;
-	margin: 100px 200px;
-	border: 1px solid blue;
->>>>>>> parent of 6023014... Portfolio
-}
-
-.margin {
-	z-index: 100;
-	width: 75%;
-	height: 100%;
-	border: 150px solid red;
-	position: fixed;
-}
-
-<<<<<<< HEAD
 #projecttext {
-	padding: 25px 0px;
+	padding: 25px 50px;
 }
 
 #shape {
@@ -94,13 +63,43 @@ h1 {
 	position: absolute;
 	left: -100px;
 	top: 0px;
-	z-index: 5000;
+	z-index: 100;
 }
 
-.resume {
-	background-color: violet;
+.container {
+	z-index: 0;
+	width: 70%;
 }
 
+.bar {
+	position: fixed;
+	background-color: white;
+	z-index: 500;
+}
+
+.t {
+	width: 100%;
+	height: 100px;
+	top: 0px;
+}
+
+.b {
+	width: 100%;
+	height: 100px;
+	bottom: 0px;
+}
+
+.l {
+	width: 100px;
+	height: 100%;
+	left: 0px;
+}
+
+.r {
+	width: 100px;
+	height: 100%;
+	right: 0px;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -119,13 +118,13 @@ there.
 		height: 200px;
 	}
 
-	#projecttext {
-	padding: 25px 50px;
+	.container {
+		width: 100%;
 	}
 
-	.scrollspace {
-	height: 100%;
-}
+	.container img {
+		width: 100%;
+	}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -138,58 +137,6 @@ there.
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {}
 
-}
-
-=======
-.portfolio {
-	z-index: -100;
-}
-
-.name, .info {
-	position: fixed;
-	margin: 60px;
-	z-index: 1000;
-}
-
-.container {
-	margin: 0 150px;
-}
-
-.left {
-	left: 0;
-	text-align: left;
-	z-index: 1000;
-}
-
-.right {
-	right: 0;
-	text-align: right;
-}
-
-/*.navigation {
-	margin: 50px;
-	width: 10%;
-	height: 100px;
-	position: fixed;
-}
-
-.left {
-	float:left;
-	text-align: left;
-	display: block;
-}
-
-.right {
-	float:right;
-	text-align: right;
-	display: block;
-}*/
-
-.container {
-	height: 2000px;
-}
-
->>>>>>> parent of 6023014... Portfolio
 [x-sticky-boundary] {overflow:auto}
