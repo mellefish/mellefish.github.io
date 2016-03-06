@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: Book;
+    src: url(../fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../fonts/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../fonts/CircularStd-Bold.otf);
+}
+
+/*::-webkit-scrollbar { 
+    display: none; 
+}*/
+
+body {
+	font-family: Book, sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: Bold;
+	z-index: 1000;
+}
+
+.hidespace {
+	height: 2000px;
+}
+
+.block {
+	height: 100px;
+}
+
+.name, .info {
+	position: fixed;
+	margin: 50px 50px;
+	z-index: 1000;
+}
+
+.left {
+	left: 0;
+	text-align: left;
+}
+
+.right {
+	right: 0;
+	text-align: right;
+}
+
+#projecttext {
+	padding: 25px 50px;
+}
+
+#shape {
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: absolute;
+	left: -100px;
+	top: 0px;
+	z-index: 100;
+}
+
+.container {
+	z-index: 0;
+	width: 70%;
+}
+
+.bar {
+	position: fixed;
+	background-color: white;
+	z-index: 500;
+}
+
+.t {
+	width: 100%;
+	height: 100px;
+	top: 0px;
+}
+
+.b {
+	width: 100%;
+	height: 100px;
+	bottom: 0px;
+}
+
+.l {
+	width: 100px;
+	height: 100%;
+	left: 0px;
+}
+
+.r {
+	width: 100px;
+	height: 100%;
+	right: 0px;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* smaller than mobile */
+@media (max-width: 400px) {
+	#shape {
+		width: 200px;
+		height: 200px;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.container img {
+		width: 100%;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+[x-sticky-boundary] {overflow:auto}
