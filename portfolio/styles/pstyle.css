@@ -1,0 +1,114 @@
+body {
+	display: block;
+	height: 500px;
+}
+
+/* Navigation
+ * --------------------------------------- */
+#header {
+	font-family: Medium;
+	font-size: 20px;
+	margin: 50px 0 0 0;
+}
+
+#name {
+	float:left;
+/*	color: rgb(0,0,255);*/
+}
+
+#info {
+	float: right;
+/*	color: rgb(0,0,255);*/
+}
+
+
+/* Typography
+ * --------------------------------------- */
+
+
+body {
+	font-family: verdana;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Hierarchy Styles
+ * --------------------------------------- */
+
+h1 {
+	font-size: 16px;
+	font-family: Medium;
+	padding: 150px 0 40px 0;
+}
+
+h2 {
+	font-family: Medium;
+	font-size: 20px;
+	padding: 0 0 100px 0;
+}
+
+h3 {
+	font-family: Book;
+	font-size: 16px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid black;
+	display: table-cell;
+}
+
+.section, .caption {
+	padding: 100px 0 50px 0;
+}
+
+.caption p {
+	padding: 15px 0 0 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+img {
+	width: 100%;
+}
+
+/* Styles
+ * --------------------------------------- */
+
+.description {
+	border: 1px solid red;
+	float:left;
+}
+
+.tags {
+	margin: 100px 0 0 0;
+	border: 1px solid blue;	
+}
+
+ul#list li {
+	display: inline;
+	color: red !important;
+	text-transform: uppercase;
+	font-size: 12px;
+	border: 1px solid red;
+	margin: 10px 0;
+	padding: 5px 5px;
+	border-radius: 25px;
+	line-height: 30px;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+}
+
+/* Footer
+ * --------------------------------------- */
+
+.footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	bottom: 0;
+	margin: 100px 0 0 0;
+}

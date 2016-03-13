@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+	
+	body {
+  	border: 0px;
+	}
+
+	#viewall, .vbody {
+	display: none;
+	}
+
+	.img {
+	z-index: 0;
+	padding: 0;
+	width: 100%;
+	}
+
+	img {
+	padding: 0 0 50px 0;
+	}
+
+/*	#fullpage, #navheader, #info, #viewall {
+		display: none;
+	}*/
+
+}
