@@ -257,7 +257,7 @@ input{
 @media (min-width: 1300px) {
 /*  larger screens */
 
-	body { background-color: #fafafb; }
+/*	body { background-color: #fafafb; }*/
 
 	.container {
 		width: 70%;
