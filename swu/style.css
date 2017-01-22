@@ -71,57 +71,23 @@ body {
 	line-height: 34px;
 }
 
-/* ABOUT =========================================================================== */
-
-.section2 {
-	display: block;
-	float: left;
-	width: 100%;
-	padding: 10% 0 10% 0;
-	color: #28E3A7;
-/*	border: 1px solid blue;*/
-	bottom: 0;
-}
-
-.column {
-	width: 55%;
-/*	border: 1px solid yellow;*/
-	float: right;
-}
-
-.column2 {
-	width: 40%;
-/*	border: 1px solid green;*/
-	float: left;
-}
-
-/*.column2 p {
-	float: right;
-}*/
-
-.illustrations {
-/*	position: absolute;*/
-	margin: -25% 0 0 0;
-	padding: 0 0 0 0;
-	float: left;
-	width: 100%;
-	background-image: url('static/img/green.png');
-	background-repeat: no-repeat;
-	background-position: bottom right;
-	background-size: 20%;
-/*	border: 1px solid yellow;*/
-}
-
-.swimmers img {
-	width: 50%;
-	margin: 0 0 -10px 0;
-	padding: 0 0 0 0;
-}
-
-#title {
-	font-size: 15px;
+a {
+	color: #d2d2d2;
+	text-decoration: none;
 	text-transform: uppercase;
-	font-family: Circular Bold;
+	font-size: 15px;
+}
+
+a:hover {
+	color: #fa6c46;
+}
+
+.nav {
+	float: left;
+	display: block;
+	bottom: 0;
+	padding: 0 0 2% 0;
+	position: absolute;
 }
 
 /* FORM ELEMENTS =================================================================== */
@@ -300,6 +266,14 @@ input{
 	.button, .button:hover, .button:focus, .button:active, .button:active:focus {
 	    width: 100.6%;
 		}
+
+	.nav {
+	float: left;
+	display: block;
+	bottom: 0;
+	padding: 0 0 2% 0;
+	position: absolute;
+}
 }
 
 @media (max-width: 335px) {
