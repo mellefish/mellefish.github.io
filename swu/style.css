@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: Circular Bold;
+  font-family: CircularBold;
   src: url('static/CircularStd-Bold.otf')
 }
 
@@ -123,7 +123,7 @@ body {
 #title {
 	font-size: 15px;
 	text-transform: uppercase;
-	font-family: Circular Bold;
+	font-family: CircularBold;
 }
 
 /* FORM ELEMENTS =================================================================== */
